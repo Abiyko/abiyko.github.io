@@ -1,0 +1,151 @@
+@charset "UTF-8";
+body{
+    font-family: 'Hiragino Kaku Gothic Pro','Mmeirio',sans-serif;
+    font-size: 100%;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+h1{
+    font-size: 250%;
+    text-align: center;
+}
+.firstblock a{
+    font-size: 200%;
+    position: absolute;
+    right: 2%;
+    /* margin-bottom: 5%; */
+}
+.Contents{
+    position: relative;
+    margin-top: 4%;
+}
+.Contents ul{
+    display:  flex;
+    font-size: 200%;
+    list-style: none;
+    margin-left: -40px;
+}
+.Contents ul li{
+    text-align: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.TopPicture{
+    margin-inline: auto;
+    padding: 2%;
+    margin-top: -1.5vw;
+    background-color: #ddd;
+    width: 100%;
+}
+.DiariesPicture{
+    margin-inline: auto;
+    width: 50%;
+}
+.WorksPicture{
+    margin-inline: auto;
+    width: 50%;
+}
+.opPicture{
+    position: absolute;
+    padding: 2%;
+    background-color: #ddd;
+    width: 100%;
+    opacity: 0;
+}
+.Contents1:hover img{
+    opacity: 100%;
+}
+.diaryPicture{
+    position: absolute;
+    padding: 2%;
+    background-color: #ddd;
+    width: 100%;
+    margin-left: -33.33%;
+    opacity: 0;
+}
+.Contents2:hover img{
+    opacity: 100%;
+}
+.workPicture{
+    position: absolute;
+    padding: 2%;
+    background-color: #ddd;
+    width: 100%;
+    margin-left: -66.66%;
+    opacity: 0;
+}
+.Contents3:hover img{
+    opacity: 100%;
+}
+h2{
+    font-size: 200%;
+    margin-bottom: 2%;
+}
+.Profile{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.IconPicture img{
+    height: 25%;
+    max-height: 280px;
+    width: 25%;
+    max-width: 280px;
+    border-radius: 100%;
+}
+.Contents p{
+    width: 100%;
+    height: auto;
+    word-break: break-all;
+    background: #ddd;
+}
+.NandB ul{
+    display: flex;
+    justify-content: center;
+}
+.NandB ul li{
+    margin-top: 10px;
+    width: 230px;
+    min-width: 230px;
+    list-style: none;
+    text-align: center;
+}
+.Illustlist ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.Illustlist ul li{
+    list-style: none;
+}
+.Illustlist ul li img{
+    border: 1px solid white;
+    max-height: 282.84px;
+    object-fit: cover;
+}
+.Address h2{
+    text-align: center;
+    color: #333;
+}
+.Address p{
+    margin-left: 2%;
+}
+.Address p img{
+    width: 35px;
+}
+a:hover{
+    color: red;
+}
+footer{
+    text-align: right;
+    font-size: 17.5px;
+}
+.Contents1:hover{
+    background-color: #ddd;
+}
+.Contents2:hover{
+    background-color: #ddd;
+}
+.Contents3:hover{
+    background-color: #ddd;
+}

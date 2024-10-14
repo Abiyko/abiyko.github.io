@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta https-equiv="X-UA-Compativle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日記-あびぃのログ</title>
+    <meta name="discription" content="あびぃの日記や作品などを掲載しています">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="firstblock">
+        <header>
+            <h1>あびぃのログ</h1>
+            <a href="Contact.html">Contact</a>
+        </header>
+    </div>
+    <div class="Contents">
+        <ul>
+            <li>
+                <div class="Contents1">
+                    <a href="../index.html">TopPage</a>
+                </div>
+            </li>
+            <li>
+                <div class="Contents2">
+                    <a href="../Diary.html">Diaries</a>
+                </div>
+            </li>
+            <li>
+                <div class="Contents3">
+                    <a href="../Works.html">Works</a>
+                </div>
+            </li>
+        </ul>
+        <img class="DiariesPicture" src="../images/headerpict3.png">
+    </div>
+    <div class="Contents">
+        <h2>2024/10/09</h2>
+        <p>
+            　今日はカラオケで2時間歌った後，UE5で切り替えのプログラミングとアニメーションの設定を少し行いました．
+            <br>　視点切り替えがうまくいかずかなり苦戦しましたが，『<a href="https://dev.epicgames.com/community/learning/tutorials/eD13/unreal-engine-enhanced-input-in-ue5"><u>Enhanced Input in UE5 | Tutorial - Epic Dev</u></a>』を読んだところ，同じ入力アクションに複数のコンテキストがマップされている場合、優先度の高いコンテキストが考慮され、他のコンテキストは無視されるとのことだったので，入力マッピングコンテキストを1つにしてそこにアクターに付けたい入力アクションをすべて入れることで解決しました．
+            ここに至るまでの過程で，ブランチや配列，関数などのBPの知識を得ることができたので，かなり良い経験になりました．Enhanced Imput Actionが正式採用された後での入力マッピングコンテキストの解説動画やQittaが見つけられなかったので，自分で解説を上げるのもありかもしれません．
+            <br>　アニメーションは『<a href="https://youtu.be/7D2BbFIVoxg?si=ocBlss2biQqe_P1Y"><u>アニメーションBPを使ったアニメの再生方法</u></a>』を見ながら歩行と待機アクションの実装を行いました．初めはアニメーションがループしなかったのですが，アニメーションのステートの詳細でLoop Animationにチェックを入れることで解決しました．
+            <br>　あと，PCファンのプラグを今までケース付属の基盤に刺していたのですが，今になってマザーボードにケースファン用のコネクターな無いことは無いと気づき，ケースファンのプラグをマザーボードに付け替えました．これによってケースファンの回転数をコントロールできるようになったため，PCがとても静かになりました．
+        </p>
+    </div>
+    <div class="NandB">
+        <ul>
+            <li><a href="./Diary20241008.html">back</a></li>
+            <li><a href="./Diary20241010.html">next</a></li>
+        </ul>
+    </div>
+</body>
+<footer>
+    <small>© 2024 あびぃ </small>
+</footer>
+</html>

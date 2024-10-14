@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta https-equiv="X-UA-Compativle">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>日記-あびぃのログ</title>
+    <meta name="discription" content="あびぃの日記や作品などを掲載しています">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div class="firstblock">
+        <header>
+            <h1>あびぃのログ</h1>
+            <a href="Contact.html">Contact</a>
+        </header>
+    </div>
+    <div class="Contents">
+        <ul>
+            <li>
+                <div class="Contents1">
+                    <a href="../index.html">TopPage</a>
+                </div>
+            </li>
+            <li>
+                <div class="Contents2">
+                    <a href="../Diary.html">Diaries</a>
+                </div>
+            </li>
+            <li>
+                <div class="Contents3">
+                    <a href="../Works.html">Works</a>
+                </div>
+            </li>
+        </ul>
+        <img class="DiariesPicture" src="../images/headerpict3.png">
+    </div>
+    <div class="Contents">
+        <h2>2024/10/06</h2>
+        <p>
+            　今日はウェブサイト制作を少し進めた後にUE5でマップ製作をしました．
+            <br>　イラストのページを作品ページに変更して，イラスト以外の製作物も掲載項目も作りました．絵のギャラリー表示がなかなかに難しく，絵の比を維持した状態でサイズを統一して並べるところまではやったのですが，ポップアップ表示は後回しにしました．
+            <br>　UE5のマップ作りで，処理を軽くするために端末設定をAndroid OpenGL Mobileにしていたのですが，Sky Atmospherコンポーネントでエラーが生じてしまい，原因の究明と解決に時間がかかりました．端末の設定を切り替えるときにCPU温度が99℃になってしまうため，高温状態がしばらく続いて処理が重くなったときは冷や汗が出ました．結局，『<a href="https://youtu.be/10LnynC2qZU?si=WEXE38FpTHBbyye8"><u>ue5で星空を出す簡単な方法</u></a>』を参考にSky AtmospherコンポーネントをBP_Sky_Sphereにすることで解決しました．
+            <br>　マップはアクターを重ねるようにして繋げていくことで製作しました．進捗は1/3程度です．本来はスカルプトを使うべきなのですが，テクスチャを適応したときにゆがみが出ておかしくなりそうなので，形を変えるのはサイズの変更だけにしました．
+            <br>　あとはキャラクターのアセットにも少し触れ，敵キャラを待機モーションでマップ上に出しました．無料アセットのイカさんなのですが，リアルで思った以上に気持ち悪い（笑）．
+            
+        </p>
+    </div>
+    <div class="NandB">
+        <ul>
+            <li><a href="./Diary20241005.html">back</a></li>
+            <li><a href="./Diary20241007.html">next</a></li>
+        </ul>
+    </div>
+</body>
+<footer>
+    <small>© 2024 あびぃ </small>
+</footer>
+</html>
